@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+
+
+
+</head>
+
+<body>
+    <header>
+        <h2>My Portfolio</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section id="home" data-aos="zoom-in">
+        <div class="image-text-container">
+                    <img src="kutti.jpg" alt="kutti" style="width:400px;height:400px;">
+                <div class="text">
+                    <p>Hi, I'm Keerthana.<br>
+                       I'm a passionate developer interested in frontend development.
+                    </p>
+                </div>
+       </div>
+    </section>
+        <section id="about" data-aos="zoom-in" data-aos-offset="250" data-aos-delay="300">
+                    <div class="left-align">
+                        <h2>ABOUT</h2>
+                        <p>Hello! I'm Keerthana Karasi, a passionate web developer and<br> designer with a love for creating beautiful and user-friendly websites.<br>
+                           I enjoy turning ideas into reality through clean code and creative design.</p>
+                        <br>
+                        <h2>FRONTEND DEVELOPER</h2>
+                        <p>I am a frontend developer with hands-on experience in HTML, CSS, and Bootstrap. <br>I enjoy building responsive and visually appealing websites that work well on all devices.</p>
+                        <br>
+                        <div class="frontend">
+                          <img src="frontend.jpg" alt="frontend-imag" style="width:400px;height:200px;">
+                        </div>
+                        <ul class="about-info">
+                        <li><strong>Name:</strong>K Keerthana</li>
+                        <li><strong>Education:</strong> B.Tech</li>
+                        <li><strong>Contact:</strong> +91 8919166382</li>
+                        <li><strong>Email:</strong> keerthanakarasi@gmail.com</li>
+                        <li><strong>Location:</strong> Andhra Pradesh, India</li>
+                        </ul>
+                    </div>
+        </section>
+        
+    <section id="skills" data-aos="zoom-in" data-aos-offset="250" data-aos-delay="300">
+        <h2>SKILLS</h2>
+        <div class="skill-bar">
+          <label>HTML</label>
+          <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+
+        <div class="skill-bar">
+          <label>CSS</label>
+          <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+
+        <div class="skill-bar">
+           <label>Bootstrap</label>
+           <div class="bar"><div class="progress" style="width: 50%;"></div></div>
+        </div>
+    </section>
+        
+
+        <section id="project" data-aos="zoom-in" data-aos-offset="250" data-aos-delay="300">
+            <h2>PROJECTS</h2>
+      
+          
+          <div class="project">
+            <img src="img2.png" alt="Project 1">
+            <h3>Portfolio Website</h3>
+            <p>I design and develop a personal portfolio website using HTML, CSS, and Bootstrap.<br>
+               The website showcases my web development skills, projects, and contact information.<br>
+               Focused on building a responsive, user-friendly design that works across devices (desktop, tablet, mobile).<br>
+               This project helped me improve my understanding of layout design, CSS styling, and responsive frameworks.</p>
+            <a href="https://example.com" target="_blank">View Project</a>
+          </div>
+
+          <div class="project">
+            <img src="Website.JPG" alt="Project 2">
+            <h3>Recipe Website</h3>
+            <p>Developed a responsive Food Recipe Website using HTML, CSS, Bootstrap, and JavaScript.<br>
+               The website displays a collection of recipes with images, descriptions, and categories (ex: Indian, Chinese, Desserts, Healthy).<br>
+               Implemented a clean, user-friendly interface and ensured the site is mobile-friendly.<br>
+               Added interactive elements such as recipe cards, navigation bar, and responsive grids.<br>
+               This project helped me improve my frontend development skills and practice building real-world web layouts.</p>
+            <a href="https://example.com" target="_blank">View Project</a>
+           </div>
+        </section>
+
+<section id="certificates" data-aos="zoom-in" data-aos-offset="250" data-aos-delay="300">
+  <h2>CERTIFICATES</h2>
+  <div class="certificates-gallery">
+    <div class="certificate">
+      <img src="Swecha.jpg" alt="Certificate 1">
+    </div>
+
+    <div class="certificate">
+      <img src="Nptel.jpg" alt="Certificate 2">
+    </div>
+
+     <div class="certificate">
+      <img src="Aajhub.jpg" alt="Certificate 2">
+    </div>
+  </div>
+</section>
+
+</section>
+
+        
+        <section id="contact" data-aos="zoom-in" data-aos-offset="250" data-aos-delay="300">
+            <h2>CONTACT</h2>
+            <p><strong>📞 Phone:</strong> +91 8919166382</p>
+            <p><strong>📧 Email:</strong> <a href="mailto:keerthanakarasi@gmail.com">keerthanakarasi@gmail.com</a></p>
+           <section id="contact">
+             <form class="contact-form" action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button class="btn">Send Message</button>
+            </form>
+        </section>
+
+        
+    </main>
+
+   
+
+</body>
+</nav>
+</div>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 2000,  // animation duration in ms
+    once: true       // animation happens only once
+  });
+</script>
+<footer>
+  <p>© 2025 Keerthana | Frontend Developer</p>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/keerthana-karasi-8a0590292" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</footer>
+
+</body>
+
+
+
+</html>
