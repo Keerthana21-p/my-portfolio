@@ -89,20 +89,20 @@ nav {
 }
 .left-align {
   text-align: left;
-  margin-left: 30px;
-  padding: 0;
+  margin-left: 10px;
   margin-top: 10px;
   line-height: 1.6;
+  text-decoration: double;
  }
  #about h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 10px;
 }
 
 #about p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 1.5;
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: left;
   text-decoration: double;
 }
@@ -113,8 +113,16 @@ nav {
   text-align: left;
   color: #0c2d48;
   font-size: large;
-
 }
+#skills p{
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+  text-decoration: double;
+}
+ 
 
 .skill-bar {
   margin: 10px auto;
@@ -266,13 +274,16 @@ nav {
   gap: 15px;
 
 }
-
+.name{
+  color:black;
+  font-size: large;
+}
 
 .contact-form input,
 .contact-form textarea {
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 5px;
   font-size: 1rem;
   resize: none;
   align-items: center;
@@ -438,27 +449,3 @@ footer .social-icons a:hover {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
