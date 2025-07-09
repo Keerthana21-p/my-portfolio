@@ -34,3 +34,9 @@ Check out the live site here: [https://keerthana21-p.github.io/My-Portfolio](htt
 ├── images/
 │ └── (profile and project images)
 └── README.md
+📬 Contact
+📧 Email: your-keerthanakarasi@gmail.com@example.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/keerthana-karasi-8a0590292
+
+🐙 GitHub: github.com/Keerthana21-p
